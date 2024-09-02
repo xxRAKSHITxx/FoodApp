@@ -1,0 +1,132 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  color: white;
+  border: none; /* Remove any borders */
+  
+}
+
+/* Logo Styling */
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; /* A modern sans-serif font */
+  transition: color 0.3s ease;
+  border: none; /* Ensure no border */
+  
+}
+
+.navbar-logo a:hover {
+  color: #ffe3c9; /* Subtle color change on hover */
+
+}
+
+/* Navbar Links Styling */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  border: none; /* Ensure no border */
+
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+  border: none; /* Ensure no border */
+
+}
+
+.navbar-links li a:hover {
+  color: #ffe3c9; /* Subtle color change on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+
+}
+
+/* Auth Buttons Styling */
+.navbar-auth {
+  display: flex;
+  gap: 1rem;
+  border: none; /* Ensure no border */
+
+}
+
+/* Reset button styles */
+button {
+background: none; /* Remove background */
+border: none; /* Remove border */
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margin */
+cursor: pointer; /* Pointer cursor */
+outline: none; /* Remove outline */
+box-shadow: none; /* Remove box shadow */
+}
+
+/* Styling for the link inside the button */
+.login{
+color: white; /* Text color */
+font-size: 1.1rem; /* Font size */
+font-family: 'Poppins', sans-serif; /* Font family */
+text-decoration: none; /* Remove underline */
+display: inline-block; /* Ensure link fits correctly inside button */
+}
+
+.login:hover {
+color: white; /* No color change on hover */
+}
+
+
+.signup-btn {
+  background-color: white;
+  color: #ff7e5f;
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  border: none; /* Ensure no border */
+
+}
+
+.signup-btn:hover {
+  background-color: #ffe3c9; /* Lightened background on hover */
+  color: #ff7e5f;
+
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    border: none; /* Ensure no border */
+
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: none; /* Ensure no border */
+
+  }
+
+  .navbar-auth {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: none; /* Ensure no border */
+
+  }
+}

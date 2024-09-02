@@ -1,0 +1,32 @@
+/* .card {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 280px; 
+    margin: 20px auto; 
+    width: 18rem;
+}
+
+
+.card-img-top {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.card-body {
+    margin-top: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #240000;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #f10505;
+} */
